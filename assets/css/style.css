@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.cabecera {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.botones {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn-primario {
+    background-color: blue;
+    padding: 10px;
+}
+
+.btn-rojo {
+    background-color: red;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.carta {
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+
+    min-height: 220px;
+}
