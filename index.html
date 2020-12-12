@@ -17,9 +17,9 @@
 
     <div class="botones">
 
-        <button id="nuevoJuego" class="btn-rojo">Nuevo juego</button>
-        <button id="btnpedir" class="btn-primario">Pedir carta</button>
-        <button id="btndetener" class="btn-primario">Detener</button>
+        <button id="btnnuevo" class="btn-rojo">Nuevo juego</button>
+        <button id="btnpedir" disabled="disabled" class="btn-primario">Pedir carta</button>
+        <button id="btndetener" disabled="disabled" class="btn-primario">Detener</button>
 
 
     </div>
@@ -31,18 +31,16 @@
 
         </div>
 
-        <div id="jugador-cartas">
+        <div id="jugador-cartas" class="divCartas">
 
-            <!-- <img class="carta" src="/assets/cartas/3D.png" alt="Cartas">
-            <img class="carta" src="/assets/cartas/3D.png" alt="Cartas">
-            <img class="carta" src="/assets/cartas/3D.png" alt="Cartas"> -->
+
         </div>
 
         <div class="jugador">
             <h2>Victorias computadora: <span>0</span></h2>
 
         </div>
-        <div id="computadora-cartas">
+        <div id="computadora-cartas" class="divCartas">
 
 
         </div>
@@ -50,6 +48,9 @@
 
     <script src="/assets/js/underscore-min.js"></script>
     <script src="/assets/js/juego.js"></script>
+    <script>
+        miJuego.nuevoJuego();
+    </script>
 </body>
 
 </html>
